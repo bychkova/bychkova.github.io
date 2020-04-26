@@ -1,0 +1,53 @@
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+
+
+$main-font: 'Gilroy', sans-serif
+$font-color: #000000
+$accent-color: #C6A464
+$grey-color: #B3BDC3
+
+body
+	font-family: $main-font
+	font-weight: 400
+	//letter-spacing: 1px
+	color: $font-color
+
+.container
+	margin: 0 auto
+	width: 100%
+	// Medium devices (tablets, 768px and up)
+	@media (min-width: 768px)
+		width: 700px
+	// Large devices (desktops, 992px and up)
+	@media (min-width: 992px)
+		width: 900px
+	// Extra large devices (large desktops, 1200px and up)
+	@media (min-width: 1200px)
+		width: 1160px
+
+/*
+	.cta-link
+		padding: 15px
+		background: $accent-color
+		border-radius: 20px
+		color: white
+		font-size: 14px
+		font-weight: 400
+		text-transform: uppercase
+		text-decoration: none
+		transition: 0.4s
+		&:hover
+			background: $hover-color
+
+
+	.section-title
+		text-align: center
+		font-size: 30px
+		font-family: $title-font
+		.colored
+			color: $accent-color
+		@media (min-width: 768px)
+			font-size: 56px*/
